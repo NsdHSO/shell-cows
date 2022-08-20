@@ -4,6 +4,10 @@
 
 export const environment = {
   production: false,
+  mfe: {
+    "login": "https://vorkurt-login.netlify.app",
+  }
+
 };
 
 /*
