@@ -1,0 +1,7 @@
+{
+  "/remoteEntry.*": {
+    "target": "https://puvicu-aogi3euat-david-samuel1.vercel.app/",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

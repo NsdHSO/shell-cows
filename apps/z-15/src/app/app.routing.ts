@@ -14,7 +14,7 @@ export const routes: Routes = [
         path:'login',
         loadChildren: () => loadRemoteModule({
             type: 'module',
-            remoteEntry: `${environment.mfe.login}/remoteEntry.js`,
+            remoteEntry: `${environment.mfe.login}remoteEntry.js`,
             exposedModule: './Module'
         }).then(m => m.SignInModule),
     },

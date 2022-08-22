@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   mfe: {
-    "login": "https://vorkurt-login.netlify.app",
+    "login": "https://expreess.vercel.app/lo/",
   }
 
 };
