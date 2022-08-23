@@ -6,7 +6,7 @@ import {AuthorizationGuard} from "ngx-virous";
 
 export const routes: Routes = [
     {
-        path:'',
+        path:'s',
         loadChildren: () => loadRemoteModule({
             type: 'module',
             remoteEntry: `${environment.mfe.login}remoteEntry.js`,
