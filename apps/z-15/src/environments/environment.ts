@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   mfe: {
-    "login": "https://puvicu.vercel.app/",
+    "login": "http://localhost:4201/",
   }
 
 };

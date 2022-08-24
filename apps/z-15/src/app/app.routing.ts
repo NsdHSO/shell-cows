@@ -6,7 +6,7 @@ import {AuthorizationGuard} from "ngx-virous";
 
 export const routes: Routes = [
     {
-        path:'s',
+        path:'',
         loadChildren: () => loadRemoteModule({
             type: 'module',
             remoteEntry: `${environment.mfe.login}remoteEntry.js`,
@@ -14,8 +14,12 @@ export const routes: Routes = [
         }).then(m => m.SignInModule),
     },
   {
-    path:'apps',
+    path:'vorkurt',
     component: ShellComponent,
     canActivate: [AuthorizationGuard]
+  },
+  {
+    path: "**",
+    redirectTo:''
   }
 ]
