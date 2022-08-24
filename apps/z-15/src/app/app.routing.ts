@@ -14,8 +14,11 @@ export const routes: Routes = [
         }).then(m => m.SignInModule),
     },
   {
-    path:'apps',
+    path:'vorkurt',
     component: ShellComponent,
-    canActivate: [AuthorizationGuard]
+  },
+  {
+    path: "**",
+    redirectTo:''
   }
 ]
