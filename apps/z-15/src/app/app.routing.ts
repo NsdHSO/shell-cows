@@ -16,7 +16,6 @@ export const routes: Routes = [
   {
     path:'vorkurt',
     component: ShellComponent,
-    canActivate: [AuthorizationGuard]
   },
   {
     path: "**",
